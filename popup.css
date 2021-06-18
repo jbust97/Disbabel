@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+html{
+    font-family: Garamond, EB Garamond, Georgia, serif;
+    font-size: 120%;
+}
+.word{
+    font-weight: bold;
+    font-size: 110%;
+}
+
+a{
+    color: black; 
+    text-decoration: none;
+}
+
+#translation{ 
+    padding: 8px;
+}

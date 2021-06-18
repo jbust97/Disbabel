@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Disbabel",
+  "version": "1.0",
+ 
+  "description": "When a word or phrase is selected, gives the user the option to get a translation from german to english",
+  
+  "content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+    "js": ["grimm.js"]
+  }
+],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "32": "icons/tower-of-babel.png"
+    },
+    "default_title": "Translate with Disbabel"
+  },
+  
+  "permissions": ["contextMenus"]
+}
